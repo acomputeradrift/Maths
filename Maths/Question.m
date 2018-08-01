@@ -13,8 +13,8 @@
 - (instancetype)init {
     if (self = [super init]) {
         _startTime = [NSDate date];
-        _leftValue = arc4random_uniform(90) + 10;
-        _rightValue = arc4random_uniform(90) + 10;
+        _leftValue = arc4random_uniform(91) + 10;
+        _rightValue = arc4random_uniform(91) + 10;
         _question = @"";
         _answer = 0;
     }
